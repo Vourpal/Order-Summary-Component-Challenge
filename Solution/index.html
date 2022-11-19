@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Order Summary Component Main</title>
+  </head>
+  <body>
+    <main id="card-wrapper">
+        <div id="order-card">
+            <img src="../images/illustration-hero.svg" alt="Dancing Girl" id="header-illustration">
+            <article id="text-wrapper">
+                <h1 id="title-text">Order Summary</h1>
+                <p id="summary-text">
+                You can now listen to millions of songs, audiobooks, and podcasts on
+                any device anywhere you like!
+                </p>
+            </article>
+            <div id="payment-wrapper">
+                <img src="../images/icon-music.svg" alt="" id="music-image">
+                <p id="description-text">
+                    <b>Annual Plan</b> <br> 59.99/Year
+                </p>
+                <a href="#" id="change-button" onclick="return false">Change</a>
+            </div>
+            <button id="payment-button">Proceed to Payment</button>
+            <br>
+            <a href="#" onclick="return false" id="cancel-button">Cancel Order</a>
+        </div>
+    </main>
+  </body>
+</html>
+
+<!-- Ask why the flexbox is fucking up the entire thing and not just the #payment-wrapper like you want it to be -->
